@@ -29,7 +29,7 @@ Full test cases with preconditions and steps:
 
 ## 📸 Test Results
 You can view the collection runner test results here:  
-`/screenshots/test-result-collection`
+![Screenshot – Collection Runner Result](screenshot/runner-result-collection.png)
 
 ## 📝 Notes
 - The `/user` and `/store` endpoints showed some inconsistent validation (e.g., invalid email/password inputs still return `200 OK`).
