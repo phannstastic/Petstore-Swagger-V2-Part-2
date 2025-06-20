@@ -32,8 +32,8 @@ You can view the collection runner test results here:
 ![Screenshot – Collection Runner Result](screenshot/runner-result-collection.png)
 
 ## 📝 Notes
-- The `/user` and `/store` endpoints showed some inconsistent validation (e.g., invalid email/password inputs still return `200 OK`).
-- A `500 Internal Server Error` was encountered on certain invalid updates – this has been logged as a backend issue.
+- API incorrectly allows login with unregistered user (e.g., invalid email/password inputs still return `200 OK`).
+- A `500 Internal Server Error` was encountered on certain invalid updates.
 
 ## ⚙️ Setup
 
