@@ -29,7 +29,7 @@ Full test cases with preconditions and steps:
 
 ## 📸 Test Results
 You can view the collection runner test results here:  
-![Screenshot – Collection Runner Result](screenshot/runner-result-collection.png)
+![Screenshot – Collection Runner Result](screenshot/test-result-collection.png)
 
 ## 📝 Notes
 - API incorrectly allows login with unregistered user (e.g., invalid email/password inputs still return `200 OK`).
